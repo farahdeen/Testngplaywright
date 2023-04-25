@@ -1,0 +1,22 @@
+userName: mohameddeen_VumeU1
+accessKey: TLmzz5U8aUNepfdyhpT1
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest-beta
+  - deviceName: iPad Pro 12.9 2022
+    osVersion: 16
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: samsung
+    deviceOrientation: portrait
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+debug: true
+networkLogs: true
+consoleLogs: info
