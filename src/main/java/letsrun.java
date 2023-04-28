@@ -5,7 +5,7 @@ import com.microsoft.playwright.Playwright;
 import org.testng.annotations.Test;
 
 public class letsrun {
-
+//connected in jenkins
     @Test
 
     public void just(){
@@ -14,6 +14,7 @@ public class letsrun {
         Browser browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false).setSlowMo(50));
         Page page = browser.newPage();
         page.navigate("https://demoqa.com/frames");
+
 
 
 
@@ -32,4 +33,4 @@ public class letsrun {
     }
 }
 
-//C:\Users\deen\.m2\repository\com\browserstack\browserstack-java-sdk\1.4.1\browserstack-java-sdk-1.4.1.jar
+//-javaagent:C:\Users\deen\.m2\repository\com\browserstack\browserstack-java-sdk\1.4.1\browserstack-java-sdk-1.4.1.jar

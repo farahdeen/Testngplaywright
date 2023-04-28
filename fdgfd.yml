@@ -1,5 +1,8 @@
-userName: mohameddeen_VumeU1
-accessKey: TLmzz5U8aUNepfdyhpT1
+
+
+userName: far_XK1fTtKJnnP
+accessKey: xM7sEZ12LbLgXXCoai1x
+
 platforms:
   - os: Windows
     osVersion: 10
@@ -13,10 +16,10 @@ platforms:
     osVersion: 12.0
     browserName: samsung
     deviceOrientation: portrait
-browserstackLocal: true
-buildName: bstack-demo
+browserstackLocal: false
+buildName: bstack-democcv
 buildIdentifier: ${BUILD_NUMBER}
-projectName: BrowserStack Sample
+projectName: deen
 debug: true
 networkLogs: true
 consoleLogs: info
